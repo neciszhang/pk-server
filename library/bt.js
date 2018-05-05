@@ -14,7 +14,7 @@ bt.prototype.show = function(title, msg, func = null) {
 }
 
 bt.prototype.toast = function(title = '用户登陆中...', time = 10000, icon = 'none', func = null) {
-	wx.showToast(
+	wx.showToast({
 		title: title,
 		icon: icon,
 		mask: true,
@@ -24,7 +24,7 @@ bt.prototype.toast = function(title = '用户登陆中...', time = 10000, icon =
 				func();
 			}
 		}
-	})
+	});
 }
 
 bt.prototype.toast_hide = function(argument) {
