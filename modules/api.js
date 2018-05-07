@@ -10,4 +10,4 @@ const __api = {
 	}
 }
 
-global.api == __api;
+global.api = __api;

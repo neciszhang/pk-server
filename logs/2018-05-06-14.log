@@ -1,0 +1,606 @@
+[2018-05-06T14:19:33.744] [INFO] default - { Error: listen EADDRINUSE :::8100
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at new WebSocketServer (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:68:20)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:44:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8100 }
+[2018-05-06T14:19:33.749] [INFO] default - Error: listen EADDRINUSE :::8100
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at new WebSocketServer (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:68:20)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:44:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+[2018-05-06T14:19:33.749] [INFO] default - { Error: listen EADDRINUSE :::8100
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:56:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8100 }
+[2018-05-06T14:19:33.750] [INFO] default - Error: listen EADDRINUSE :::8100
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:56:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+[2018-05-06T14:21:45.436] [INFO] default - { Error: listen EADDRINUSE :::8100
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at new WebSocketServer (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:68:20)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:44:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8100 }
+[2018-05-06T14:21:45.440] [INFO] default - Error: listen EADDRINUSE :::8100
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at new WebSocketServer (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:68:20)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:44:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+[2018-05-06T14:21:45.441] [INFO] default - { Error: listen EADDRINUSE :::8100
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:56:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8100 }
+[2018-05-06T14:21:45.441] [INFO] default - Error: listen EADDRINUSE :::8100
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:56:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+[2018-05-06T14:22:04.571] [INFO] default - { Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:56:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8200 }
+[2018-05-06T14:22:04.576] [INFO] default - Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:56:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+[2018-05-06T14:22:08.519] [INFO] default - { Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:56:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8200 }
+[2018-05-06T14:22:08.524] [INFO] default - Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:56:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+[2018-05-06T14:23:39.122] [INFO] default - { Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:56:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8200 }
+[2018-05-06T14:23:39.127] [INFO] default - Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:56:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+[2018-05-06T14:23:39.799] [INFO] default - { Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:56:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8200 }
+[2018-05-06T14:23:39.805] [INFO] default - Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:56:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+[2018-05-06T14:27:03.304] [INFO] default - { Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:56:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8200 }
+[2018-05-06T14:27:03.309] [INFO] default - Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:56:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+[2018-05-06T14:27:24.374] [INFO] default - { Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:55:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8200 }
+[2018-05-06T14:27:24.379] [INFO] default - Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:55:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+[2018-05-06T14:28:20.497] [INFO] default - { Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:56:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8200 }
+[2018-05-06T14:28:20.501] [INFO] default - Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:56:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+[2018-05-06T14:28:29.533] [INFO] default - { Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:56:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8200 }
+[2018-05-06T14:28:29.538] [INFO] default - Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:56:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+[2018-05-06T14:31:18.983] [INFO] default - { Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at new WebSocketServer (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:68:20)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:42:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8200 }
+[2018-05-06T14:31:18.989] [INFO] default - Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at new WebSocketServer (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:68:20)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:42:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+[2018-05-06T14:31:22.566] [INFO] default - { Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at new WebSocketServer (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:68:20)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:42:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8200 }
+[2018-05-06T14:31:22.570] [INFO] default - Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at new WebSocketServer (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:68:20)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:42:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+[2018-05-06T14:32:22.792] [INFO] default - { Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at new WebSocketServer (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:68:20)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:42:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8200 }
+[2018-05-06T14:32:22.797] [INFO] default - Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at new WebSocketServer (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:68:20)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:42:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+[2018-05-06T14:32:45.839] [INFO] default - { Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at new WebSocketServer (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:68:20)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:42:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8200 }
+[2018-05-06T14:32:45.843] [INFO] default - Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at new WebSocketServer (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:68:20)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:42:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+[2018-05-06T14:34:34.113] [INFO] default - { Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at new WebSocketServer (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:68:20)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:42:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8200 }
+[2018-05-06T14:34:34.118] [INFO] default - Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at new WebSocketServer (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:68:20)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:42:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+[2018-05-06T14:35:48.300] [INFO] default - { Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:54:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8200 }
+[2018-05-06T14:35:48.305] [INFO] default - Error: listen EADDRINUSE :::8200
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:54:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+[2018-05-06T14:52:29.512] [INFO] default - { Error: listen EADDRINUSE :::8100
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:54:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8100 }
+[2018-05-06T14:52:29.519] [INFO] default - Error: listen EADDRINUSE :::8100
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:54:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+[2018-05-06T14:53:50.723] [INFO] default - { Error: listen EADDRINUSE :::8100
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:54:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8100 }
+[2018-05-06T14:53:50.728] [INFO] default - Error: listen EADDRINUSE :::8100
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Object.<anonymous> (/Users/necis/Learning/pk-server/modules/listen.js:54:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+[2018-05-06T14:54:44.014] [INFO] default - TypeError: Cannot read property 'indexOf' of undefined
+    at Object.add (/Users/necis/Learning/pk-server/modules/mq.js:20:53)
+    at WebSocketServer.connection (/Users/necis/Learning/pk-server/app.js:28:8)
+    at emitTwo (events.js:131:20)
+    at WebSocketServer.emit (events.js:214:7)
+    at handleUpgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:79:18)
+    at WebSocketServer.completeUpgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:293:5)
+    at WebSocketServer.handleUpgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:218:10)
+    at Server.upgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:78:16)
+    at emitThree (events.js:136:13)
+    at Server.emit (events.js:217:7)
+[2018-05-06T14:54:44.019] [INFO] default - TypeError: Cannot read property 'indexOf' of undefined
+    at Object.add (/Users/necis/Learning/pk-server/modules/mq.js:20:53)
+    at WebSocketServer.connection (/Users/necis/Learning/pk-server/app.js:28:8)
+    at emitTwo (events.js:131:20)
+    at WebSocketServer.emit (events.js:214:7)
+    at handleUpgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:79:18)
+    at WebSocketServer.completeUpgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:293:5)
+    at WebSocketServer.handleUpgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:218:10)
+    at Server.upgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:78:16)
+    at emitThree (events.js:136:13)
+    at Server.emit (events.js:217:7)
+[2018-05-06T14:56:25.786] [INFO] default - TypeError: Cannot read property 'indexOf' of undefined
+    at Object.add (/Users/necis/Learning/pk-server/modules/mq.js:20:53)
+    at WebSocketServer.connection (/Users/necis/Learning/pk-server/app.js:28:8)
+    at emitTwo (events.js:126:13)
+    at WebSocketServer.emit (events.js:214:7)
+    at handleUpgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:79:18)
+    at WebSocketServer.completeUpgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:293:5)
+    at WebSocketServer.handleUpgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:218:10)
+    at Server.upgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:78:16)
+    at emitThree (events.js:136:13)
+    at Server.emit (events.js:217:7)
+[2018-05-06T14:56:25.793] [INFO] default - TypeError: Cannot read property 'indexOf' of undefined
+    at Object.add (/Users/necis/Learning/pk-server/modules/mq.js:20:53)
+    at WebSocketServer.connection (/Users/necis/Learning/pk-server/app.js:28:8)
+    at emitTwo (events.js:126:13)
+    at WebSocketServer.emit (events.js:214:7)
+    at handleUpgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:79:18)
+    at WebSocketServer.completeUpgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:293:5)
+    at WebSocketServer.handleUpgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:218:10)
+    at Server.upgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:78:16)
+    at emitThree (events.js:136:13)
+    at Server.emit (events.js:217:7)
+[2018-05-06T14:56:30.225] [INFO] default - TypeError: Cannot read property 'indexOf' of undefined
+    at Object.add (/Users/necis/Learning/pk-server/modules/mq.js:20:53)
+    at WebSocketServer.connection (/Users/necis/Learning/pk-server/app.js:28:8)
+    at emitTwo (events.js:126:13)
+    at WebSocketServer.emit (events.js:214:7)
+    at handleUpgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:79:18)
+    at WebSocketServer.completeUpgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:293:5)
+    at WebSocketServer.handleUpgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:218:10)
+    at Server.upgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:78:16)
+    at emitThree (events.js:136:13)
+    at Server.emit (events.js:217:7)
+[2018-05-06T14:56:30.225] [INFO] default - TypeError: Cannot read property 'indexOf' of undefined
+    at Object.add (/Users/necis/Learning/pk-server/modules/mq.js:20:53)
+    at WebSocketServer.connection (/Users/necis/Learning/pk-server/app.js:28:8)
+    at emitTwo (events.js:126:13)
+    at WebSocketServer.emit (events.js:214:7)
+    at handleUpgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:79:18)
+    at WebSocketServer.completeUpgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:293:5)
+    at WebSocketServer.handleUpgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:218:10)
+    at Server.upgrade (/Users/necis/Learning/pk-server/node_modules/ws/lib/websocket-server.js:78:16)
+    at emitThree (events.js:136:13)
+    at Server.emit (events.js:217:7)

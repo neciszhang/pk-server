@@ -14,9 +14,16 @@ var listen = require('./modules/listen');
 var mq = require('./modules/mq');
 var room = require('./modules/room');
 var INmessage = require('./modules/INmessage');
+var app = listen.app;
+
+app.get('/question/get_rand',function(req,res){
+	api.get_question_rand().then((data)=>{
+		res.send(data);
+	})
+});
 
 listen.wss.on('connection', function connection(ws) {
-    // bt.log('链接成功！');
+    bt.log('链接成功！');
     // 将新用户加入队列
     mq.add(global.userInfo,ws,()=>{
         room.handle(global.userInfo.openid);

@@ -1,6 +1,11 @@
 var mq = require("./mq");
 var room = require("./room");
 var fs = require('fs');
+var express = require('express');
+var url = require('url');
+// var https = require('https');
+
+var app = express();
 
 var cfg = {
 	ssl: true,
@@ -11,37 +16,51 @@ var cfg = {
 
 var httpServ = (cfg.ssl) ? require('https') : require('http');
 
-var app = null;
+var server = null;
 
-// dummy request processing
-var processRequest = function(req, res) {
-	res.writeHead(200);
-	res.end('All glory to WebSockets!\n');
-};
+// // dummy request processing
+// var processRequest = function(req, res) {
+// 	res.writeHead(200);
+// 	res.end('All glory to WebSockets!\n');
+// };
+
+// var server = httpServ.createServer({
+// 	'key': fs.readFileSync(cfg.ssl_key),
+// 	'cert': fs.readFileSync(cfg.ssl_cert)
+// }).;
 
 if (cfg.ssl) {
-	app = httpServ.createServer({
-		// providing server with  SSL key/cert
-		key: fs.readFileSync(cfg.ssl_key),
-		cert: fs.readFileSync(cfg.ssl_cert)
-
-	}, processRequest).listen(cfg.port);
+	server = httpServ.createServer({
+		'key': fs.readFileSync(cfg.ssl_key),
+		'cert': fs.readFileSync(cfg.ssl_cert)
+	});
 } else {
-	app = httpServ.createServer(processRequest).listen(cfg.port);
+	server = httpServ.createServer();
 }
 
 var webSocketServer = require("ws").Server,
 	wss = new webSocketServer({
-		// port: 8100,
-		// verifyClient: socketVerify,
-		server: app
+		// port: cfg.port,
+		verifyClient: socketVerify,
+		server: server
 	});
-wss.on('connection', function(wsConnect) {
-	wsConnect.on('message', function(message) {
-		console.log(message);
-		wsConnect.send('reply');
-	});
+// app.use(function(req, res) {
+// 	res.send({
+// 		msg: "hello"
+// 	});
+// });
+
+server.on('request', app);
+server.listen(cfg.port, function() {
+	console.log('Listening on ' + server.address().port)
 });
+
+// wss.on('connection', function(wsConnect) {
+// 	wsConnect.on('message', function(message) {
+// 		console.log(message);
+// 		wsConnect.send('reply');
+// 	});
+// });
 
 function socketVerify(info) {
 	if (info.req.url) {
@@ -59,7 +78,7 @@ function socketVerify(info) {
 	return true;
 }
 
-console.log(`WS启动成功，端口号${8100}`);
+// console.log(`WS启动成功，端口号${8100}`);
 
 let _listen = {
 	// 用户下线后，进行用户数据移除
@@ -74,5 +93,6 @@ let _listen = {
 
 module.exports = {
 	wss: wss,
-	event: _listen
+	event: _listen,
+	app:app
 };
