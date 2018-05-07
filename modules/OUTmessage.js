@@ -6,6 +6,7 @@ var _out_message = {
 	handle(room) {
 		(async () => {
 			let question_list = await api.get_question_rand();
+			// console.log(question_list);
 			let members = [];
 			for (let user of room.members) {
 				// bt.log(user);
@@ -24,6 +25,8 @@ var _out_message = {
 					members: members
 				}
 				if (user.openid.indexOf('TEMPJR') == -1) {
+					// console.log(user.openid);
+					console.log(msg);
 					mq.wss[user.openid].send(JSON.stringify(msg));
 				}
 				// user.ws.send( JSON.stringify(msg) );

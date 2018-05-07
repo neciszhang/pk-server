@@ -7,7 +7,7 @@ var outMsg = require('./OUTmessage');
 
 var _in_message = {
 	handle(res) {
-		//bt.log('in message');
+		bt.log('in message');
 		let user = null;
 		if (res.hasOwnProperty('openid')) {
 			user = mq.get(res.openid);

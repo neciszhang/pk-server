@@ -84,11 +84,13 @@ var _room = {
 		};
 		let idle_list = mq.clients.filter(info => {
 			return info.status == 'on';
-		})
+		});
+        // console.log(idle_list);
 		if (idle_list.length > 1) {
 			// bt.log('空闲 > 1');
-			let firend_1 = idle_list[0];
-			let firend_2 = idle_list[1];
+			// let firend_1 = idle_list[0];
+            let firend_1 = userInfo;
+			let firend_2 = idle_list[0];
 			// 创建房间
 			let room = {
 				id: bt.random(5),
@@ -100,6 +102,7 @@ var _room = {
 			firend_1.status = firend_2.status = 'off';
 			// 创建房间
 			this.add(room);
+            // console.log(room);
 			message.handle(room);
 		}
 	}
