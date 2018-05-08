@@ -16,7 +16,7 @@ var room = require('./modules/room');
 var INmessage = require('./modules/INmessage');
 var app = listen.app;
 
-mq.clients= global.robot;
+// mq.clients= global.robot;
 
 app.get('/question/get_rand',function(req,res){
 	api.get_question_rand().then((data)=>{
@@ -29,9 +29,9 @@ listen.wss.on('connection', function connection(ws) {
     // 将新用户加入队列
     // console.log(ws);
     console.log(global.userInfo);
-    mq.add(global.userInfo,ws,()=>{
-        room.handle(global.userInfo.openid);
-    },listen.event.close);
+    // mq.add(global.userInfo,ws,()=>{
+    //     room.handle(global.userInfo.openid);
+    // },listen.event.close);
     // 接受消息
     ws.on('message', function incoming(json) {
         INmessage.handle(JSON.parse(json));
