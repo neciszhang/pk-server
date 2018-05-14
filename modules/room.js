@@ -102,7 +102,7 @@ var _room = {
 			firend_1.status = firend_2.status = 'off';
 			// 创建房间
 			this.add(room);
-            // console.log(room);
+            console.log(room);
 			message.handle(room);
 		}
 	}
