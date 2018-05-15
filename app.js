@@ -16,7 +16,7 @@ var room = require('./modules/room');
 var INmessage = require('./modules/INmessage');
 var app = listen.app;
 
-mq.clients= global.robot;
+// mq.clients= global.robot;
 
 app.get('/question/get_rand',function(req,res){
 	api.get_question_rand().then((data)=>{

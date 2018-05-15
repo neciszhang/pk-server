@@ -8,6 +8,7 @@ var outMsg = require('./OUTmessage');
 var _in_message = {
 	handle(res) {
 		bt.log('in message');
+		console.log(res);
 		let user = null;
 		if (res.hasOwnProperty('openid')) {
 			user = mq.get(res.openid);
@@ -62,6 +63,7 @@ var _in_message = {
 		}
 		// 用户和机器人发起的对战，更新用户状态，以免和机器人对战过程中，状态未变，其他人介入
 		else if (res.type == _config.message_type.robot_start) {
+			console.log('robot start');
 			// user = mq.get(res.openid);
 			// user.status = 'off';
 			// 依赖服务端创建陪伴机器人
@@ -72,6 +74,7 @@ var _in_message = {
 				time: new Date().toLocaleString(),
 				members: [res, r]
 			};
+			// console.log(m_room);
 			// 更新真实用户在线状态，对战中
 			mq.update(res);
 			// 创建房间
